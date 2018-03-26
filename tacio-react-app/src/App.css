@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  float: left;
+  top: 0;
+  bottom: 0;
+  padding-left: 15px;
+}
+
+.App-header {
+  background-color:#1999AA;
+  height: 70px;
+  width: 100%;
+  padding: 0px;
+  font-size: 25px;
+  color: white;
+}
+.App-footer{
+  background-color: deepskyblue;
+  height: 20px;
+  color: slategrey
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.button1 {
+  color:rgb(2, 2, 2); /* สีของตัวอักษร */
+  border:1px solid slategrey; /* กรอบของปุ่ม */
+  background-color:gainsboro; /* สีพื้นของปุ่ม */
+  font-style:8pt Tahoma; /* แบบอักษร */
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  padding:3px; /* ช่องว่างระหว่างกรอบกับตัวอักษร */
+  margin: 3px;
+  }
+  
+  
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
